@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasmartinez114/todoListApi.git"
+  },
+  "keywords": [
+    "RESTFUL",
+    "API",
+    "TUTORIAL"
+  ],
+  "author": "Thomas Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasmartinez114/todoListApi/issues"
+  },
+  "homepage": "https://github.com/thomasmartinez114/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
+}
